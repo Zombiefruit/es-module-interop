@@ -3,4 +3,4 @@ import thing2 from './commonjs/commonjs';
 
 console.log('"esModuleInterop": false \n');
 console.log(`The default export of a commonjs file that used to be esm: "${thing}".\n It works! \n`);
-console.log(`The default export of a commonjs file: "${thing2}".\n It doesn't work :(\n`);
+console.log(`The default export of a commonjs file: "${thing2}".\n It doesn't work :(. The original commonjs file never had the concept of a default export.\n`);
