@@ -1,0 +1,13 @@
+{
+  "name": "es-module-interop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "esm-true": "tsc es-module-interop-true/esm.ts && node es-module-interop-true/esm.js",
+    "esm-false": "tsc es-module-interop-false/esm.ts && node es-module-interop-false/esm.js"
+  }
+}
