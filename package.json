@@ -7,7 +7,7 @@
     "typescript": "^3.3.3333"
   },
   "scripts": {
-    "esm-true": "tsc es-module-interop-true/esm.ts && node es-module-interop-true/esm.js",
-    "esm-false": "tsc es-module-interop-false/esm.ts && node es-module-interop-false/esm.js"
+    "esm-true": "tsc --p es-module-interop-true && node es-module-interop-true/esm.js",
+    "esm-false": "tsc --p es-module-interop-false && node es-module-interop-false/esm.js"
   }
 }
